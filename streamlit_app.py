@@ -633,6 +633,12 @@ def main():
     </div>
     """, unsafe_allow_html=True)
     
+    st.download_button(
+    label="📄 Download CV (PDF)",
+    data=open("CV.pdf", "rb"),
+    file_name="SaiSushanthVarma_CV.pdf",
+    mime="application/pdf"
+    )
     # Use the top navigation
     top_navigation()
 
