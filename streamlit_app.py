@@ -629,7 +629,7 @@ def main():
         📧 sushanth.kalidindi@gmail.com | 
         💼 <a href="https://www.linkedin.com/in/sushanthkalidindi/" style="color: white;">LinkedIn</a> | 
         🐙 <a href="https://github.com/SaiSushanthVarma" style="color: white;">GitHub</a>
-        %📄 <a href="cv.pdf" download style="color: white; font-weight: bold;">Download Resume</a>
+        
     </div>
     """, unsafe_allow_html=True)
     
@@ -644,5 +644,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
