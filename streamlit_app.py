@@ -635,7 +635,7 @@ def main():
     
     st.download_button(
     label="📄 Download CV (PDF)",
-    data=open("CV.pdf", "rb"),
+    data=open("cv.pdf", "rb"),
     file_name="SaiSushanthVarma_CV.pdf",
     mime="application/pdf"
     )
@@ -644,3 +644,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
